@@ -1,6 +1,7 @@
 header{
-    background-color: lightslategray;
+    background-color: #fdfbe0;
     height: 195px;
+    font-family: 'Cherry Bomb One', cursive;
 }
 
 .nav-flex{
@@ -17,7 +18,7 @@ header{
 }
 
 .menu-lateral{
-    background-color: rgb(206, 202, 209);
+    background-color: rgb(230 230 230);
     width: 0;
     height: 100%;
     z-index: 1;
@@ -35,7 +36,7 @@ header{
 .menu-l-flex{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: #84c5d5;
     height: 50px;
 }
 
@@ -46,6 +47,7 @@ header{
 .menu-l-img{
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 .menu-l-link{
@@ -77,10 +79,10 @@ header{
     display: flex;
     flex-direction: row;
     width: 450px;
-    height: 50px;
+    height: 65px;
     background-color: white;
     margin: 8px 0;
-    border-radius: 25px;
+    border-radius: 35px;
     box-shadow: 5px 7px 6px 0px gray;
     cursor: pointer;
 }
@@ -91,9 +93,9 @@ header{
 }
 
 .menu-l-produtos-sep img{
-    width: 30px;
-    height: 30px;
-    align-self: center;   
+    width: 90px;
+    height: 75px;
+    align-self: center;
     margin: 0 10px;
 }
 
@@ -116,6 +118,7 @@ header{
     width: 35px;
     height: 35px;
     align-self: center;
+    cursor: pointer;
 }
 
 #logo{
@@ -126,7 +129,7 @@ header{
 }
 
 .search-box{
-    background-color: rgb(172 228 240 / 95%);
+    background-color: white;
     height: 35px;
     width: 50vw;
     border-radius: 40px;
@@ -134,7 +137,7 @@ header{
     align-items: center;
     position: relative;
     left: 25vw;
-    
+    box-shadow: 4px 3px 7px #f5ff16;
 }
 
 .search-text{
@@ -147,10 +150,11 @@ header{
     font-size: 15px;
     line-height: 15px;
     margin-left: 15px;
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 17px;
 }
 
 .lupa-botao{
-    background-color: white;
     cursor: pointer;
     width: 55px;
     height: 35px;
@@ -167,4 +171,6 @@ header{
 
 .search-text::placeholder{
     color: rgb(77, 77, 77);
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 17px;
 }
