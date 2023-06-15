@@ -1,0 +1,164 @@
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#menu{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.menu-lateral{
+    background-color: rgb(206, 202, 209);
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: .2s;
+}
+
+.menu-lateral.ativo{
+    width: 650px;
+}
+
+.menu-l-flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 50px;
+}
+
+.menu-l-f{
+    align-self: center;
+}
+
+.menu-l-img{
+    width: 25px;
+    height: 25px;
+}
+
+.menu-l-link{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-l-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fechaMenu{
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    margin-left: 275px;
+    cursor: pointer;
+}
+
+.menu-l-produtos h2{
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+
+.menu-l-produtos-sep{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    margin: 8px 0;
+    border-radius: 25px;
+    box-shadow: 5px 7px 6px 0px gray;
+    cursor: pointer;
+}
+
+.menu-l-produtos-sep h3{
+    align-self: center;
+    font-size: 18px;
+}
+
+.menu-l-produtos-sep img{
+    width: 30px;
+    height: 30px;
+    align-self: center;   
+    margin: 0 10px;
+}
+
+.dif{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dif img{
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
+
+.dif h3{
+    margin: 0 10px;
+}
+
+#carrinho{
+    width: 35px;
+    height: 35px;
+    align-self: center;
+}
+
+#logo{
+    width: 85px;
+    height: 85px;
+    align-self: center;
+}
+
+.search-box{
+    background-color: rgba(56, 55, 55, 0.948);
+    height: 45px;
+    width: 50vw;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 25vw;
+    
+}
+
+.search-text{
+    width: 50vw;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 15px;
+}
+
+.lupa-botao{
+    background-color: #000000;
+    cursor: pointer;
+    width: 55px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.lupa-botao img{
+    width: 1.375rem;
+    height: 1.375rem;
+    align-self: center;
+}
+
+.search-text::placeholder{
+    color: white;
+}

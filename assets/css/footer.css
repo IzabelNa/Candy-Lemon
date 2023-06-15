@@ -1,0 +1,48 @@
+.footer-flex{
+    margin: 45px;
+    display: flex;
+}
+
+#logo-footer{
+    width: 150px;
+    height: 150px;
+}
+
+.contatos-flex{
+    display: flex;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.contatos-sep{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.contatos-sep img{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.contatos-sep p{
+    align-self: center;
+}
+
+.redes-flex{
+    align-self: center;
+    margin: 0 10px;
+}
+
+.redes-flex h2{
+    margin-bottom: 15px;
+}
+
+.redes-flex img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
