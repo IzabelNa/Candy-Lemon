@@ -1,13 +1,18 @@
+header{
+    background-color: lightslategray;
+    height: 195px;
+}
+
 .nav-flex{
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    margin: 0 15px;
 }
 
 #menu{
     width: 30px;
     height: 30px;
-    align-self: center;
+    margin-top: 40px;
     cursor: pointer;
 }
 
@@ -114,14 +119,15 @@
 }
 
 #logo{
-    width: 85px;
+    width: 110px;
     height: 85px;
     align-self: center;
+    margin: 15px;
 }
 
 .search-box{
-    background-color: rgba(56, 55, 55, 0.948);
-    height: 45px;
+    background-color: rgb(172 228 240 / 95%);
+    height: 35px;
     width: 50vw;
     border-radius: 40px;
     display: flex;
@@ -137,17 +143,17 @@
     background: none;
     outline: none;
     padding: 0;
-    color: white;
+    color: black;
     font-size: 15px;
     line-height: 15px;
     margin-left: 15px;
 }
 
 .lupa-botao{
-    background-color: #000000;
+    background-color: white;
     cursor: pointer;
     width: 55px;
-    height: 45px;
+    height: 35px;
     display: flex;
     justify-content: center;
     border-radius: 0px 20px 20px 0px;
@@ -160,5 +166,5 @@
 }
 
 .search-text::placeholder{
-    color: white;
+    color: rgb(77, 77, 77);
 }
