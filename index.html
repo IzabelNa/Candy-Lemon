@@ -11,6 +11,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+    
+            const swiper = new Swiper('.swiper', {
+                direction: 'horizontal',
+                loop: true,
+    
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+    
+            });
+        </script>
         <link rel="icon" href="/assets/img/logo.ico" type="image/x-icon">
         <title>Candy Lemon</title>
     </head>
@@ -47,7 +63,7 @@
                                     <h3>Bottons</h3>
                                 </div>
                                 <div class="menu-l-produtos-sep">
-                                    <img src="/assets/img/nav/imagem-temporaria.png" alt="Figurinha">
+                                    <img src="/assets/img/nav/figurinhas-02.png" alt="Figurinha">
                                     <h3>Figurinhas</h3>
                                 </div>
                                 <div class="menu-l-produtos-sep">
@@ -122,7 +138,13 @@
 
             <div class="novidades-flex">
                  <div class="novidades-flex-2">
-                    <img src="/assets/img/novidades/amor-agenda.jpeg" alt="#" class="novidades-img">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="/assets/img/novidades/amor-agenda.jpeg" alt="#" class="novidades-img"></div>
+                          <div class="swiper-slide"><img src="/assets/img/novidades/calculoamor-agenda.jpeg" alt="#" class="novidades-img"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <h2 class="novidades-nome">Fórmula do Amor</h2>
                     <div class="flex-preco">
                         <p class="novidades-preco-1">R$ 79,99</p>
@@ -132,7 +154,13 @@
                     <button type="submit" class="novidades-botao">Comprar</button>
                 </div>
                  <div class="novidades-flex-2">
-                    <img src="/assets/img/novidades/tangerina-agenda.jpeg" alt="#" class="novidades-img">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="/assets/img/novidades/tangerina-agenda.jpeg" alt="#" class="novidades-img"></div>
+                          <div class="swiper-slide"><img src="/assets/img/novidades/berga-agenda.jpeg" alt="#" class="novidades-img"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <h2 class="novidades-nome">"Bergamota ou Tangerina Eis a questão"</h2>
                     <div class="flex-preco">
                         <p class="novidades-preco-1">R$ 79,99</p>
@@ -143,10 +171,10 @@
                 </div>
                 <div class="novidades-flex-2">
                     <img src="/assets/img/novidades/camiseta amarela.png" alt="#" class="novidades-img">
-                    <h2 class="novidades-nome">Nome</h2>
+                    <h2 class="novidades-nome">Garota Girassol</h2>
                     <div class="flex-preco">
-                        <p class="novidades-preco-1">R$ 0,00</p>
-                        <p class="novidades-preco">R$ 0,00</p>
+                        <p class="novidades-preco-1">R$ 60,59</p>
+                        <p class="novidades-preco">R$ 55,90</p>
                     </div>
                     <p class="novidades-desc">Parcelamos compras a partir de R$ 100!</p>
                     <button type="submit" class="novidades-botao">Comprar</button>
@@ -156,30 +184,30 @@
             <div class="novidades-flex">
                 <div class="novidades-flex-2">
                    <img src="/assets/img/novidades/camiseta preta.png" alt="#" class="novidades-img">
-                   <h2 class="novidades-nome">Nome</h2>
+                   <h2 class="novidades-nome">Camiseta de Design Gráfico</h2>
                    <div class="flex-preco">
-                       <p class="novidades-preco-1">R$ 0,00</p>
-                       <p class="novidades-preco">R$ 0,00</p>
+                       <p class="novidades-preco-1">R$ 60,59</p>
+                       <p class="novidades-preco">R$ 55,90</p>
                    </div>
                    <p class="novidades-desc">Parcelamos compras a partir de R$ 100!</p>
                    <button type="submit" class="novidades-botao">Comprar</button>
                </div>
                 <div class="novidades-flex-2">
-                   <img src="/assets/img/novidades/imagem-temporaria.png" alt="#" class="novidades-img">
-                   <h2 class="novidades-nome">Nome</h2>
+                   <img src="/assets/img/novidades/figurinhas_Prancheta 1.png" alt="#" class="novidades-img">
+                   <h2 class="novidades-nome">Fofura gelada</h2>
                    <div class="flex-preco">
-                       <p class="novidades-preco-1">R$ 0,00</p>
-                       <p class="novidades-preco">R$ 0,00</p>
+                       <p class="novidades-preco-1">R$ 4,99</p>
+                       <p class="novidades-preco">R$ 3,50</p>
                    </div>
                    <p class="novidades-desc">Parcelamos compras a partir de R$ 100!</p>
                    <button type="submit" class="novidades-botao">Comprar</button>
                </div>
                <div class="novidades-flex-2">
-                   <img src="/assets/img/novidades/imagem-temporaria.png" alt="#" class="novidades-img">
-                   <h2 class="novidades-nome">Nome</h2>
+                   <img src="/assets/img/novidades/figurinhas-02.png" alt="#" class="novidades-img">
+                   <h2 class="novidades-nome">Fofura refrescante</h2>
                    <div class="flex-preco">
-                       <p class="novidades-preco-1">R$ 0,00</p>
-                       <p class="novidades-preco">R$ 0,00</p>
+                       <p class="novidades-preco-1">R$ 4,99</p>
+                       <p class="novidades-preco">R$ 3,50</p>
                    </div>
                    <p class="novidades-desc">Parcelamos compras a partir de R$ 100!</p>
                    <button type="submit" class="novidades-botao">Comprar</button>
